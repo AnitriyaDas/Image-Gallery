@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Image Gallery</h1>
+        <p>Explore the beauty of the world</p>
+    </header>
+
+    <main class="container">
+
+        <div class="filters">
+            <button class="filter active" data-category="all">All</button>
+            <button class="filter" data-category="nature">Nature</button>
+            <button class="filter" data-category="architecture">Architecture</button>
+            <button class="filter" data-category="animals">Animals</button>
+            <button class="filter" data-category="festivals">Festivals</button>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800"
+                     alt="Sunrise over a green landscape">
+                <h3>Golden Sunrise</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://www.tripsavvy.com/thmb/Mfe1WelFNep4CUyonJw0Gnjh0Vo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1058859096-cea88342b91b482bb17255584d791c16.jpg"
+                     alt="Great Wall Of China">
+                <h3>Great Wall Of China</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800"
+                     alt="Lion in the wild">
+                <h3>Wildlife</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"
+                     alt="Sunlight shining through a forest">
+                <h3>Forest Escape</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://cdn.mos.cms.futurecdn.net/BiNbcY5fXy9Lra47jqHKGK.jpg"
+                     alt="Colosseum">
+                <h3>Colosseum</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?w=800"
+                     alt="Dog outdoors">
+                <h3>Animal Friends</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+                     alt="Mountain peaks">
+                <h3>Mountain Views</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg"
+                     alt="Petra">
+                <h3>Petra</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://img.magnific.com/free-photo/beautiful-view-road-sunrise-early-morning_181624-51728.jpg"
+                     alt="Beautiful natural landscape">
+                <h3>Open Horizons</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpOU-1E6jODzxZyzhNo7ufqaMyLKjySeV78GWU7BMTqu3ESx7UW_mGtp0B&s=10"
+                    alt="Tropical beach with turquoise water">
+                <h3>Tropical Paradise</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7GXL9bT78MFzX7_0_Vclxc6U8BpJ5O1OR6zd7BXDDAQwZb5zXpNGabwg&s=10">
+            <h3>Peaceful Valleys</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://media.istockphoto.com/id/157313562/photo/victoria-waterfall-in-dominica.jpg?s=612x612&w=0&k=20&c=s9bc-jaOi_5CG3e0b0YKrxJkXvD88desvI214c8vu5s="
+                    alt="Waterfall flowing through a natural landscape">
+                <h3>Hidden Waterfalls</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://t4.ftcdn.net/jpg/03/13/17/29/360_F_313172956_QeZoYpa3yaS0O6zP5g3didRUxa0dqoV6.jpg"
+                    alt="Snow-covered mountain scenery">
+                <h3>Snowy Peaks</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.prismic.io/indiahike/06c4d5ee-c026-48a7-9258-ed41c1b6b051_Tarsar+Marsar_TM_Kishan+Harwalkar_Tarsar+lake.jpg?auto=compress,format"
+                    alt="Lake surrounded by mountains">
+                <h3>Mountain Lakes</h3>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.photowall.com/products/50398/emerald-green-forest.jpg?h=699&q=85"
+                    alt="Lush green forest">
+                <h3>Emerald Forests</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/f6/ee/7d.jpg"
+                        alt="Taj Mahal">
+                    <h3>Taj Mahal</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://cdn-imgix.headout.com/media/images/0b950a4333f83b633273aaf65fe4529b-15636-athens-temple-of-poseidon---cape-sounion-sunset-tour-05.jpg"
+                    alt="Temples of Poseidon">
+                <h3>Temples of Poseidon</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://static.toiimg.com/thumb/65666850/redfort1.jpg?width=1200&height=900"
+                    alt="Red Fort">
+                <h3>Red Fort</h3>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://www.historyhit.com/app/uploads/bis-images/5149833/Leaning-Tower-of-Pisa-690x388-f50_50.jpg?x67472"
+                    alt="Tower of Pisa">
+                <h3>Leaning Tower of Pisa</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800"
+                    alt="Golden retriever outdoors">
+                <h3>Golden Companions</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=800"
+                    alt="Happy dog looking at the camera">
+                <h3>Playful Pups</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800"
+                    alt="Cat portrait">
+                <h3>Curious Cats</h3>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=800"
+                    alt="Elephant in the wild">
+                <h3>Gentle Giants</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://www.esamskriti.com/essays/docfile/8_6742.jpg"
+                    alt="Durga Puja festival celebration">
+                <h3>Durga Puja — India</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://www.gurbanikirtan247.com/wp-content/uploads/2025/10/unsplash-image.jpg"
+                    alt="Diwali lights and festive decorations">
+                <h3>Diwali — Festival of Lights</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://cdn.britannica.com/91/196391-050-AA4AE4BC/room-fireplace-armchair-Christmas-tree-gifts.jpg"
+                    alt="Christmas decorations and festive lights">
+                <h3>Christmas — Winter Magic</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://cdn.britannica.com/57/244757-050-CADDB530/Hindu-Holi-Festival-Mathura-Uttar-Pradesh-India.jpg"
+                    alt="Colourful Holi celebration">
+                <h3>Holi — Festival of Colours</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://dvna932ue33yp.cloudfront.net/blog-migration/hubfs/474541/must-see-festivals-1.jpg"
+                    alt="Crowd enjoying a live music festival">
+                <h3>Music Festivals</h3>
+            </div>
+
+            <div class="gallery-item" data-category="festivals">
+                <img src="https://cdn.holidaytribe.ai/blog-service/image1.webp-1782993129878?format=webp&width=1536&quality=75"
+                    alt="People celebrating at an outdoor festival">
+                <h3>La Tomatina — Spain</h3>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="close" id="close" aria-label="Close">&times;</button>
+        <button class="nav prev" id="prev" aria-label="Previous image">&#10094;</button>
+
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <p id="caption"></p>
+        </div>
+
+        <button class="nav next" id="next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <footer>
+        <p>© 2026 Visual Gallery | Designed with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
